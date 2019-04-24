@@ -1,0 +1,61 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box; font-family: ''}
+
+h1 {margin-top: 80px; margin-bottom: 15px; color: #A6524B;}
+
+p {color: white;}
+
+header {height: 100px;
+        width: 100%;
+        background-color: #D9765F;
+        border-bottom: 2px solid #A6524B; }
+
+  header ul {list-style-type: none;
+      margin:0px;
+      padding: 35px;
+      float: right;
+      width: 45%;}
+
+      li{float: right;
+        margin-top: 5px;}
+
+      li a {text-decoration: none;
+            font-size: 20px;
+            font-weight: bolder;
+            padding-right: 25px;
+            color: papayawhip}
+
+        li a:last-of-type {margin-right: 50px}
+
+  img {float: right; width: 12%; margin-right: 6px;
+      margin-top: 10px; margin-bottom: 0px;}
+
+article {height: 1280px; padding: 0px 20px; background-color: #F2A477;}
+  .intro {height: 600px;}
+    .intro img{width: 550px;
+              height: 550px;
+              border: 2px solid #D9765F;
+              border-radius: 50%;
+              float: left;
+              margin-left: 50px;
+              margin-top: 25px;}
+
+  .content {float: right; width: 50%;}
+    .content p:first-of-type {margin-bottom: 10px;}
+
+  .main-page {float: right; width: 80%;}
+    .main-page img {height: 150px;
+                    width: 150px;
+                    margin: 0px 20px 0px 0px;
+                    border: solid 2px #D9765F;
+                    text-align: justify;
+                    float: left;}
+    .main-page p{margin-right: 25px;}
+
+
+footer {height: 150px; width: 100%; background-color: #548C72;
+        border-top: 2px solid #D9765F;}
+  footer ul {list-style-type: none;
+            margin: auto;
+            width: 35%}
+
+  footer li {margin-top: 100px;}
